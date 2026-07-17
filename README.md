@@ -169,6 +169,31 @@ Completed as a full-stack portfolio project demonstrating:
 
 ---
 
+## Screenshots
+
+### Register Page
+
+![Login Page](<img width="2814" height="1532" alt="image" src="https://github.com/user-attachments/assets/833afbb6-1e03-4611-a4cc-6c73bfb10b1b" />
+)
+
+---
+
+### Employee Dashboard
+
+![Employee Dashboard](<img width="2780" height="1530" alt="image" src="https://github.com/user-attachments/assets/0fae98f3-2bc5-4295-81ba-00b1b2678b66" />
+)
+
+---
+
+---
+
+### Create Ticket
+
+![Create Ticket](<img width="2844" height="1534" alt="image" src="https://github.com/user-attachments/assets/2d860510-244f-41a5-9e5d-da309f62c139" />
+)
+
+---
+
 ## License
 
 MIT License
