@@ -70,7 +70,7 @@ University of North Carolina at Charlotte
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/help-desk-ticket-system.git
+git clone https://github.com/HaidaMarese/help-desk-ticket-system.git
 cd help-desk-ticket-system
 ```
 
