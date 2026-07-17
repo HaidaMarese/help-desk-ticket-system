@@ -1,13 +1,26 @@
 # IT Help Desk Ticket System
 
-A full-stack IT Help Desk application built with the MERN stack. The application allows employees to create and track IT support tickets while technicians can assign, manage, prioritize, and resolve support requests through a secure role-based system.
+A full-stack IT Help Desk application built with the MERN stack. The application allows employees to create and track IT support tickets, while technicians can assign, manage, prioritize, and resolve support requests through a secure role-based system.
+
+---
+
+## Live Demo
+
+**Frontend (Vercel):**  
+https://help-desk-ticket-system-puce.vercel.app/
+
+**Backend API (Render):**  
+https://help-desk-ticket-system-cz77.onrender.com/
+
+**GitHub Repository:**  
+https://github.com/HaidaMarese/help-desk-ticket-system
 
 ---
 
 ## Author
 
 **Haida Makouangou**  
-B.S. Computer Science  
+B.S. Computer Science (Artificial Intelligence, Gaming, and Robotics)  
 University of North Carolina at Charlotte
 
 ---
@@ -134,9 +147,9 @@ POST    /api/tickets/:id/comments
 - Email notifications
 - File attachments
 - Search and filtering
-- Ticket categories dashboard
-- Admin role
-- Analytics and reporting
+- Ticket analytics dashboard
+- Admin dashboard
+- Reporting and metrics
 
 ---
 
@@ -145,20 +158,14 @@ POST    /api/tickets/:id/comments
 Completed as a full-stack portfolio project demonstrating:
 
 - React application development
-- REST API development with Express
-- MongoDB database design
-- JWT authentication
-- Role-based authorization
+- REST API development with Express.js
+- MongoDB database design with Mongoose
+- JWT authentication and authorization
+- Role-based access control
 - CRUD operations
-- Responsive UI
+- Responsive user interface
 - Full-stack MERN architecture
-
-## Author
-
-**Haida Makouangou**
-
-Computer Science Graduate-AI, Gaming and Robotics 
-University of North Carolina at Charlotte
+- Cloud deployment with Vercel and Render
 
 ---
 
