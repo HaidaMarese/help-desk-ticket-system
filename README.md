@@ -1,0 +1,167 @@
+# IT Help Desk Ticket System
+
+A full-stack IT Help Desk application built with the MERN stack. The application allows employees to create and track IT support tickets while technicians can assign, manage, prioritize, and resolve support requests through a secure role-based system.
+
+---
+
+## Author
+
+**Haida Makouangou**  
+B.S. Computer Science  
+University of North Carolina at Charlotte
+
+---
+
+## Features
+
+### Employee
+
+- Register and log in securely
+- Create IT support tickets
+- View personal tickets
+- Track ticket status and priority
+- Add comments to tickets
+- Delete open tickets
+
+### Technician
+
+- View all employee tickets
+- Assign tickets to technicians
+- Update ticket status
+- Update ticket priority
+- Add technician comments
+- Delete tickets
+
+---
+
+## Technologies
+
+### Frontend
+
+- React
+- React Router
+- Axios
+- Vite
+- CSS3
+
+### Backend
+
+- Node.js
+- Express.js
+- MongoDB Atlas
+- Mongoose
+- JSON Web Token (JWT)
+- bcryptjs
+
+---
+
+## Security
+
+- Password hashing with bcryptjs
+- JWT authentication
+- Protected API routes
+- Role-based authorization
+- Environment variables for sensitive configuration
+
+---
+
+## Local Setup
+
+Clone the repository:
+
+```bash
+git clone https://github.com/YOUR_USERNAME/help-desk-ticket-system.git
+cd help-desk-ticket-system
+```
+
+Install backend dependencies:
+
+```bash
+cd server
+npm install
+```
+
+Install frontend dependencies:
+
+```bash
+cd ../client
+npm install
+```
+
+Create `.env` files for both the **server** and **client** using your own environment variables.
+
+Start the backend:
+
+```bash
+cd server
+npm run dev
+```
+
+Start the frontend:
+
+```bash
+cd client
+npm run dev
+```
+
+---
+
+## API Endpoints
+
+### Authentication
+
+```text
+POST   /api/auth/register
+POST   /api/auth/login
+GET    /api/auth/me
+```
+
+### Tickets
+
+```text
+GET     /api/tickets
+POST    /api/tickets
+GET     /api/tickets/:id
+PUT     /api/tickets/:id
+DELETE  /api/tickets/:id
+POST    /api/tickets/:id/comments
+```
+
+---
+
+## Future Improvements
+
+- Email notifications
+- File attachments
+- Search and filtering
+- Ticket categories dashboard
+- Admin role
+- Analytics and reporting
+
+---
+
+## Project Status
+
+Completed as a full-stack portfolio project demonstrating:
+
+- React application development
+- REST API development with Express
+- MongoDB database design
+- JWT authentication
+- Role-based authorization
+- CRUD operations
+- Responsive UI
+- Full-stack MERN architecture
+
+## Author
+
+**Haida Makouangou**
+
+Computer Science Graduate-AI, Gaming and Robotics 
+University of North Carolina at Charlotte
+
+---
+
+## License
+
+MIT License
