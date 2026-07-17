@@ -3,10 +3,14 @@ const jwt = require("jsonwebtoken");
 const User = require("../models/User");
 
 const createToken = (userId) => {
+  if (!process.env.JWT_SECRET) {
+    throw new Error("JWT_SECRET is not configured");
+  }
+
   return jwt.sign(
-    { userId },
+    { userId: userId.toString() },
     process.env.JWT_SECRET,
-    { expiresIn: "7d" }
+    { expiresIn: "30d" }
   );
 };
 
@@ -59,6 +63,8 @@ const register = async (request, response) => {
       },
     });
   } catch (error) {
+    console.error("Registration error:", error);
+
     return response.status(500).json({
       message: "Unable to register user",
       error: error.message,
@@ -111,6 +117,8 @@ const login = async (request, response) => {
       },
     });
   } catch (error) {
+    console.error("Login error:", error);
+
     return response.status(500).json({
       message: "Unable to log in",
       error: error.message,
