@@ -195,6 +195,13 @@ Completed as a full-stack portfolio project demonstrating:
 
 ---
 
+## Author
+
+**Haida Makouangou**  
+Computer Science Graduate, UNC Charlotte 
+
+- LinkedIn: [Haida Makouangou](https://www.linkedin.com/in/hmakouan/)
+
 ## License
 
 MIT License
